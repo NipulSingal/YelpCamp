@@ -2,7 +2,6 @@ var express    = require("express");
 var router     = express.Router();
 var passport   = require("passport");
 var User       = require("../models/user");
-var nodemailer = require("nodemailer")
 
 router.get("/", function(req, res){
     res.render("landing");
@@ -15,7 +14,7 @@ router.get("/register", function(req, res) {
 
 // handle sign up logic
 router.post("/register", function(req, res) {
-    var newUser = new User({username: req.body.username,email:req.body.email,otp:otp});
+    var newUser = new User({username: req.body.username,email:req.body.email});
     User.register(newUser, req.body.password, function(err, user){
         if(err){
             req.flash("error",err.message)

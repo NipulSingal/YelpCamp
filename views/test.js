@@ -1,4 +1,7 @@
-var otp = Math.floor(1000 + Math.random() * 9000);
+var User       = require("../models/user");
+var nodemailer = require("nodemailer")
+
+var Otp = Math.floor(1000 + Math.random() * 9000);
 
 var nodemailer=require("nodemailer")
 var transporter = nodemailer.createTransport({
@@ -10,9 +13,9 @@ var transporter = nodemailer.createTransport({
     }
 });
 let info = transporter.sendMail({
-    to: 'nipulsingal123@gmail.com', // list of receivers
+    to: req.body.email, // list of receivers
     subject: 'OTP for Email Verification', // Subject line
-    text: otp.toString() // plain text body
+    text: Otp.toString() // plain text body
 });
 
 console.log('Message sent: %s', info.messageId);
