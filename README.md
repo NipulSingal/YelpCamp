@@ -1,4 +1,4 @@
-<h1 align="center">YelpCamp</h1>
+<h1 align="center">YelpCamp - A Camping Website</h1>
 
 <p align="center">
 
@@ -23,7 +23,7 @@
 
 ## Setup -
 
-> This project is made using **Node.js and .ejs**. So make sure you have **Node** installed before deploying it locally.
+> This project is made using **Node.js, MongoDB and .ejs**. So make sure you have **Node** installed before deploying it locally.
 
 
 ## Glimpses
