@@ -1,6 +1,8 @@
-<h1 align="center">YelpCamp</h1>
+<h1 align="center">YelpCamp2.0</h1>
 
 <p align="center">
+
+<img src="https://img.shields.io/badge/made%20by-NipulSingal-blue.svg" >
 
 <img src="https://img.shields.io/badge/made%20by-NipulSingal-blue.svg" >
 
@@ -24,7 +26,7 @@
 ## Setup -
 
 > This project is made using **Node.js and .ejs**. So make sure you have **Node** installed before deploying it locally.
-
+> This project is made using **Node.js and .ejs**. So make sure you have **Node** installed before deploying it locally.
 
 ## Glimpses
 
@@ -40,8 +42,8 @@
 
 <img src="./readme/AddNew.png">
 
-## Campground Details Screen 👓
+## Campground Details 👓
 
 <img src="./readme/Info.png">
 
-> Copyright to NipulSingal. Credits to Colt Stele...
+> Copyright to NipulSingal62. Credits to Colt Stele...

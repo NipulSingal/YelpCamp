@@ -24,6 +24,11 @@ app.use(methodOverride("_method"));
 app.use(flash())
 
 // PASSPORT CONFIGURATION
+// app.use(require("express-session")({
+//     secret: "Once again Rusty wins cutest dog!",
+//     resave: false,
+//     saveUninitialized: false
+// }));
 app.use(require("express-session")({
     secret: "Once again Rusty wins cutest dog!",
     resave: false,
